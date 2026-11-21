@@ -50,7 +50,7 @@ public/
 ## Instalación y ejecución local
 1. Clonar el repositorio:
    ```
-   git clone [URL del repositorio]
+   git clone https://github.com/Y4ros/practica7-react-peliculas.git
    cd practica7-react-peliculas
    ```
 2. Instalar dependencias:
@@ -92,8 +92,8 @@ Las peticiones se hacen en español (`language=es-MX`). La API key se lee de la 
 <!-- Agregar aquí las capturas: ![Página principal](capturas/principal.png) -->
 
 ## Links
-- Repositorio en GitHub: [URL del repositorio]
-- Despliegue en Netlify: [URL de Netlify]
+- Repositorio en GitHub: https://github.com/Y4ros/practica7-react-peliculas
+- Despliegue en Netlify: https://practica7-peliculas-yaroslavperez.netlify.app
 
 ## Despliegue en Netlify
 - Build command: `npm run build`
