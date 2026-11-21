@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 16px;
+  background-color: #1d2030;
+  border-top: 3px solid #e2b616;
+  font-size: 0.9rem;
+}
+
+.footer-logo {
+  width: 90px;
+  height: auto;
+}
+
+.footer-info p {
+  margin: 2px 0;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}

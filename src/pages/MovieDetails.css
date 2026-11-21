@@ -1,0 +1,39 @@
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #e2b616;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.detailsContainer {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.movieImage {
+  width: 320px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.movieDetails h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.movieDetails p {
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  .detailsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movieDetails h2 {
+    text-align: center;
+  }
+}

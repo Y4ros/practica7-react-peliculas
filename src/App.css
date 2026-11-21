@@ -1,0 +1,32 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background-color: #1d2030;
+  border-bottom: 3px solid #e2b616;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
